@@ -11,7 +11,7 @@ This project focuses on:
 
 ## Instructions
 Follow the instructions in this document: 
-[CCAR Project Guide (Google Doc)](https://docs.google.com/document/d/11qiZ6cXF36Enxf1r_CQ6pEQFzm1bd5zGFF9_bbWGicM/edit?usp=sharing)
+[CCAR Project Guide (Google Doc)](https://docs.google.com/document/d/11qiZ6cXF36Enxflr_CQ6pEQFzm1bd5zGFF9_bbWGicM/edit?usp=sharing)
 
 ### Create virtual environment and install the requirements 
 
