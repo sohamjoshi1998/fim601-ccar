@@ -67,9 +67,9 @@ def download_fred_data():
         print(df_final.head())
 
         # 9. Save to CSV
-        output_filename = 'ccar_macro_data_quarterly.csv'
-        df_final.to_csv(output_filename)
-        print(f"\nData saved to: {output_filename}")
+        OUTPUT_PATH = "./output/ccar_macro_data_quarterly.csv"
+        df_final.to_csv(OUTPUT_PATH)
+        print(f"\nData saved to: {OUTPUT_PATH}")
 
     except Exception as e:
         print(f"\n[Error] {e}")
