@@ -13,6 +13,9 @@ This project focuses on:
 Follow the instructions in this document: 
 [CCAR Project Guide (Google Doc)](https://docs.google.com/document/d/11qiZ6cXF36Enxflr_CQ6pEQFzm1bd5zGFF9_bbWGicM/edit?usp=sharing)
 
+## Important Commands
+Switching to new branch : git checkout -b michelle/test
+
 ### Create virtual environment and install the requirements 
 
 ```bash
