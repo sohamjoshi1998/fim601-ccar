@@ -1,0 +1,14 @@
+Scenario Name,Date,Real GDP growth,Nominal GDP growth,Real disposable income growth,Nominal disposable income growth,Unemployment rate,CPI inflation rate,3-month Treasury rate,5-year Treasury yield,10-year Treasury yield,BBB corporate yield,Mortgage rate,Prime rate,Dow Jones Total Stock Market Index (Level),House Price Index (Level),Commercial Real Estate Price Index (Level),Market Volatility Index (Level)
+Supervisory Baseline,2026 Q1,1.9,4.8,3.1,6.2,4.6,3,3.6,3.7,4.1,5.2,6.1,6.6,68298.9,324.7,309.5,23
+Supervisory Baseline,2026 Q2,1.9,4.5,2.1,4.8,4.6,2.7,3.4,3.6,4.1,5.3,6,6.4,69057.1,325.8,312.9,22
+Supervisory Baseline,2026 Q3,2,4.5,1.9,4.5,4.6,2.6,3.2,3.7,4.1,5.3,6,6.2,69820,326.3,316.3,21.9
+Supervisory Baseline,2026 Q4,2,4.5,2.2,4.6,4.5,2.5,3.1,3.7,4.1,5.4,6,6.1,70592,326.7,319.8,22.1
+Supervisory Baseline,2027 Q1,2.1,4.5,2.4,4.8,4.5,2.5,3.1,3.7,4.1,5.4,5.9,6.1,71366.4,327,323.4,22.5
+Supervisory Baseline,2027 Q2,2.1,4.4,2.3,4.6,4.4,2.3,3.1,3.7,4.1,5.5,5.9,6.1,72137.7,327.3,326.8,22.9
+Supervisory Baseline,2027 Q3,2,4.3,2.2,4.4,4.3,2.4,3.1,3.8,4.1,5.5,5.8,6.1,72894.6,327.4,330.3,23.2
+Supervisory Baseline,2027 Q4,2,4.3,2.2,4.4,4.3,2.3,3.1,3.9,4.2,5.6,5.8,6.1,73663.8,327.6,333.8,23.5
+Supervisory Baseline,2028 Q1,2,4.2,2.1,4.4,4.3,2.2,3.1,3.9,4.1,5.6,5.8,6.1,74418.9,327.8,337.2,23.8
+Supervisory Baseline,2028 Q2,2,4.1,2.1,4.4,4.3,2.2,3,3.9,4.1,5.6,5.8,6,75173.9,328.2,340.6,24.1
+Supervisory Baseline,2028 Q3,2,4.1,2.1,4.3,4.3,2.2,3,3.9,4.1,5.6,5.7,6,75929,328.6,344,24.3
+Supervisory Baseline,2028 Q4,2,4,2.1,4.3,4.3,2.2,3,3.9,4.1,5.6,5.7,6,76684,329.1,347.4,24.5
+Supervisory Baseline,2029 Q1,1.9,4.1,2.1,4.3,4.2,2.2,3,3.9,4.1,5.6,5.7,6,77450.9,329.7,350.9,24.6
