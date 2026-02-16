@@ -13,6 +13,7 @@ Loans,1Q10,713799
 Total assets,1Q10,2135796
 Deposits,1Q10,925303
 Long-term debt,1Q10,262857
+Allowance for credit losses,1Q10,39126
 Allowance for loan losses to total retained loans,1Q10,5.40%
 Nonperforming assets,1Q10,19019
 Net charge-offs,1Q10,7910
@@ -32,6 +33,7 @@ Loans,4Q09,633458
 Total assets,4Q09,2031989
 Deposits,4Q09,938367
 Long-term debt,4Q09,266318
+Allowance for credit losses,4Q09,32541
 Allowance for loan losses to total retained loans,4Q09,5.04%
 Nonperforming assets,4Q09,19741
 Net charge-offs,4Q09,6177
@@ -51,6 +53,7 @@ Loans,3Q09,653144
 Total assets,3Q09,2041009
 Deposits,3Q09,867977
 Long-term debt,3Q09,272124
+Allowance for credit losses,3Q09,31454
 Allowance for loan losses to total retained loans,3Q09,4.74%
 Nonperforming assets,3Q09,20362
 Net charge-offs,3Q09,6373
@@ -70,6 +73,7 @@ Loans,2Q09,680601
 Total assets,2Q09,2026642
 Deposits,2Q09,866477
 Long-term debt,2Q09,271939
+Allowance for credit losses,2Q09,29818
 Allowance for loan losses to total retained loans,2Q09,4.33%
 Nonperforming assets,2Q09,17517
 Net charge-offs,2Q09,6019
@@ -89,6 +93,7 @@ Loans,1Q09,708243
 Total assets,1Q09,2079188
 Deposits,1Q09,906969
 Long-term debt,1Q09,261845
+Allowance for credit losses,1Q09,28019
 Allowance for loan losses to total retained loans,1Q09,3.95%
 Nonperforming assets,1Q09,14654
 Net charge-offs,1Q09,4396
@@ -175,7 +180,6 @@ Net charge-offs,2Q10,5714
 Net charge-off rate,2Q10,3.28%
 Consumer net charge-off rate,2Q10,4.49
 Income before income tax expense,1Q10,4537
-Allowance for credit losses,1Q10,39126
 Total net revenue,1Q12,26712
 Total noninterest expense,1Q12,18345
 Pre-provision profit,1Q12,8367
@@ -946,6 +950,7 @@ Total assets,2Q22,3841314
 Deposits,2Q22,2471544
 Long-term debt,2Q22,288212
 Common stockholders’ equity,2Q22,253305
+Allowance for credit losses,2Q22,20019
 Allowance for loan losses to total retained loans,2Q22,1.69%
 Nonperforming assets,2Q22,7845
 Net charge-offs,2Q22,657
@@ -966,6 +971,7 @@ Total assets,1Q22,3954687
 Deposits,1Q22,2561207
 Long-term debt,1Q22,293239
 Common stockholders’ equity,1Q22,253061
+Allowance for credit losses,1Q22,19591
 Allowance for loan losses to total retained loans,1Q22,1.69%
 Nonperforming assets,1Q22,8605
 Net charge-offs,1Q22,582
@@ -986,6 +992,7 @@ Total assets,4Q21,3743567
 Deposits,4Q21,2462303
 Long-term debt,4Q21,301005
 Common stockholders’ equity,4Q21,259289
+Allowance for credit losses,4Q21,18689
 Allowance for loan losses to total retained loans,4Q21,1.62%
 Nonperforming assets,4Q21,8346
 Net charge-offs,4Q21,550
@@ -1006,12 +1013,14 @@ Total assets,3Q21,3757576
 Deposits,3Q21,2402353
 Long-term debt,3Q21,298465
 Common stockholders’ equity,3Q21,255203
+Allowance for credit losses,3Q21,20528
 Allowance for loan losses to total retained loans,3Q21,1.86%
 Nonperforming assets,3Q21,8882
 Net charge-offs,3Q21,524
 Net charge-off rate,3Q21,0.21%
 Income tax expense,2Q21,3149
 Total assets,2Q21,3684256
+Allowance for credit losses,2Q21,22585
 Total net revenue,2Q23,41307
 Total noninterest expense,2Q23,20822
 Pre-provision profit,2Q23,20485
@@ -1028,6 +1037,7 @@ Total assets,2Q23,3868240
 Deposits,2Q23,2398962
 Long-term debt,2Q23,364078
 Common stockholders’ equity,2Q23,285112
+Allowance for credit losses,2Q23,24288
 Allowance for loan losses to total retained loans,2Q23,1.75%
 Nonperforming assets,2Q23,7838
 Net charge-offs,2Q23,1411
@@ -1048,6 +1058,7 @@ Total assets,1Q23,3744305
 Deposits,1Q23,2377253
 Long-term debt,1Q23,295489
 Common stockholders’ equity,1Q23,275678
+Allowance for credit losses,1Q23,22774
 Allowance for loan losses to total retained loans,1Q23,1.85%
 Nonperforming assets,1Q23,7418
 Net charge-offs,1Q23,1137
@@ -1068,6 +1079,7 @@ Total assets,4Q22,3665743
 Deposits,4Q22,2340179
 Long-term debt,4Q22,295865
 Common stockholders’ equity,4Q22,264928
+Allowance for credit losses,4Q22,22204
 Allowance for loan losses to total retained loans,4Q22,1.81%
 Nonperforming assets,4Q22,7247
 Net charge-offs,4Q22,887
@@ -1088,6 +1100,7 @@ Total assets,3Q22,3773884
 Deposits,3Q22,2408615
 Long-term debt,3Q22,287473
 Common stockholders’ equity,3Q22,255180
+Allowance for credit losses,3Q22,20797
 Allowance for loan losses to total retained loans,3Q22,1.70%
 Nonperforming assets,3Q22,7243
 Net charge-offs,3Q22,727
@@ -1108,6 +1121,7 @@ Total assets,2Q24,4143003.0
 Deposits,2Q24,2396530.0
 Long-term debt,2Q24,394028.0
 Common stockholders’ equity,2Q24,316652.0
+Allowance for credit losses,2Q24,25514.0
 Allowance for loan losses to total retained loans,2Q24,1.81
 Nonperforming assets,2Q24,8423.0
 Net charge-offs,2Q24,2231.0
@@ -1128,6 +1142,7 @@ Total assets,1Q24,4090727
 Deposits,1Q24,2428409
 Long-term debt,1Q24,395872
 Common stockholders’ equity,1Q24,306737
+Allowance for credit losses,1Q24,24695
 Allowance for loan losses to total retained loans,1Q24,1.77%
 Nonperforming assets,1Q24,8265
 Net charge-offs,1Q24,1956
@@ -1148,6 +1163,7 @@ Total assets,4Q23,3875393
 Deposits,4Q23,2400688
 Long-term debt,4Q23,391825
 Common stockholders’ equity,4Q23,300474
+Allowance for credit losses,4Q23,24765
 Allowance for loan losses to total retained loans,4Q23,1.75%
 Nonperforming assets,4Q23,7597
 Net charge-offs,4Q23,2164
@@ -1168,6 +1184,7 @@ Total assets,3Q23,3898333
 Deposits,3Q23,2379526
 Long-term debt,3Q23,362793
 Common stockholders’ equity,3Q23,289967
+Allowance for credit losses,3Q23,24155
 Allowance for loan losses to total retained loans,3Q23,1.73%
 Nonperforming assets,3Q23,8131
 Net charge-offs,3Q23,1497
@@ -1188,6 +1205,7 @@ Total assets,2Q25,4552482.0
 Deposits,2Q25,2562380.0
 Long-term debt,2Q25,419802.0
 Common stockholders’ equity,2Q25,336879.0
+Allowance for credit losses,2Q25,28281.0
 Allowance for loan losses to total retained loans,2Q25,1.85
 Nonperforming assets,2Q25,10480.0
 Net charge-offs,2Q25,2410.0
@@ -1208,6 +1226,7 @@ Total assets,1Q25,4357856
 Deposits,1Q25,2495877
 Long-term debt,1Q25,407224
 Common stockholders’ equity,1Q25,331375
+Allowance for credit losses,1Q25,27835
 Allowance for loan losses to total retained loans,1Q25,1.94%
 Nonperforming assets,1Q25,9105
 Net charge-offs,1Q25,2332
@@ -1228,6 +1247,7 @@ Total assets,4Q24,4002814
 Deposits,4Q24,2406032
 Long-term debt,4Q24,401418
 Common stockholders’ equity,4Q24,324708
+Allowance for credit losses,4Q24,26866
 Allowance for loan losses to total retained loans,4Q24,1.87%
 Nonperforming assets,4Q24,9300
 Net charge-offs,4Q24,2364
@@ -1248,6 +1268,7 @@ Total assets,3Q24,4210048
 Deposits,3Q24,2430772
 Long-term debt,3Q24,410157
 Common stockholders’ equity,3Q24,324186
+Allowance for credit losses,3Q24,26543
 Allowance for loan losses to total retained loans,3Q24,1.86%
 Nonperforming assets,3Q24,8628
 Net charge-offs,3Q24,2087
