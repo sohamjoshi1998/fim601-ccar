@@ -2,3 +2,7 @@ numpy
 pandas
 matplotlib
 seaborn
+statsmodels.api
+statsmodels.formula.api
+statsmodels.stats.outliers_influence
+sklearn.preprocessing
