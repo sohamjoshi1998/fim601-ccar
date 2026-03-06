@@ -35,7 +35,14 @@ def download_fred_data():
         'GDP': 'Nominal_GDP',                # Quarterly: Nominal Gross Domestic Product
         'CP': 'Corporate_Profits',           # Quarterly: Corporate Profits After Tax (with IVA and CCAdj)
         'CSUSHPINSA': 'House_Price_Index',   # Monthly: S&P/Case-Shiller U.S. National Home Price Index (Real Estate proxy, starts 1987)
-        'NASDAQCOM': 'Stock_Market_Index'    # Daily: NASDAQ Composite Index (Proxy for US Equity market; avoids S&P 500 10-year FRED data limit)
+        'NASDAQCOM': 'Stock_Market_Index',    # Daily: NASDAQ Composite Index (Proxy for US Equity market; avoids S&P 500 10-year FRED data limit)
+        'NFCI': 'NFCI_Financial_Conditions',      # Weekly: Chicago Fed National Financial Conditions Index.
+        'STLFSI4': 'STLFSI_Financial_Stress',     # Weekly: St. Louis Fed Financial Stress Index (version 4).
+        'BAMLH0A0HYM2': 'HY_Spread',              # Daily: ICE BofA US High Yield OAS, in %.
+        'BAMLC0A1CAAA': 'AAA_Spread',             # Daily: ICE BofA AAA US Corporate OAS, in %.
+        'BAMLC0A2CAA': 'AA_Spread',               # Daily: ICE BofA AA US Corporate OAS, in %.
+        'INDPRO': 'Industrial_Production',        # Monthly: Industrial Production Index.--Manufacturing/industrial activity; downturn implies weaker corporate revenues and stress.
+        'TCU': 'Capacity_Utilization'           # Monthly: Capacity Utilization rate (%).--How “tight” industrial capacity is; falls in recessions.
     }
 
     print(f"Fetching indicators: {list(indicators.keys())}")
@@ -57,6 +64,18 @@ def download_fred_data():
         df_quarterly['Corp_Profits_YoY'] = df_quarterly['Corporate_Profits'].pct_change(4, fill_method=None) # Year-over-Year Growth, YoY
         df_quarterly['HPI_YoY'] = df_quarterly['House_Price_Index'].pct_change(4, fill_method=None)
         df_quarterly['Stock_Market_Return'] = df_quarterly['Stock_Market_Index'].pct_change(1, fill_method=None) # Simple QoQ Return
+        df_quarterly['CPI_YoY'] = df_quarterly['CPI_Inflation'].pct_change(4, fill_method=None)
+        df_quarterly['INDPRO_YoY'] = df_quarterly['Industrial_Production'].pct_change(4, fill_method=None)
+        df_quarterly['INDPRO_Growth'] = df_quarterly['Industrial_Production'].pct_change(1, fill_method=None) * 4
+        df_quarterly['TCU_Change'] = df_quarterly['Capacity_Utilization'].diff(1)
+        df_quarterly['Term_Spread_10Y_3M'] = df_quarterly['10Y_Treasury_Yield'] - df_quarterly['3M_Treasury_Rate'] # Yield curve slope
+        df_quarterly['RDI_YoY'] = df_quarterly['Real_Disposable_Income'].pct_change(4, fill_method=None)
+        df_quarterly['RDI_Growth'] = df_quarterly['Real_Disposable_Income'].pct_change(1, fill_method=None) * 4
+        df_quarterly['10Y_Change'] = df_quarterly['10Y_Treasury_Yield'].diff(1)
+        df_quarterly['3M_Change']  = df_quarterly['3M_Treasury_Rate'].diff(1)
+        df_quarterly['Prime_Change'] = df_quarterly['Prime_Rate'].diff(1)
+        df_quarterly['BBB_Change'] = df_quarterly['BBB_Spread'].diff(1)
+        df_quarterly['HY_Change']  = df_quarterly['HY_Spread'].diff(1)
 
         # 7. *** The Trimming Step ***
         # Remove the 1999 buffer data. Keep only data from 2000-01-01 onwards.
